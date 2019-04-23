@@ -1,0 +1,35 @@
+.chapternav{
+    width: 80%;
+    padding: 0 10%;
+    overflow: hidden;
+    height: 92px;
+    padding:12px 0;
+}
+.chapternav-wrapper{
+    height: 100%;
+    background-color: #F6F6F6;
+}
+.chapternav-items{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    margin: 0px;
+}
+.chapternav-item-macbook{
+    width:52px;
+    height: 54px;
+    background-size: 52px 54px;
+    background-repeat: no-repeat;
+    background-image: url(../image/Mac-top/Mac-top-01.svg);
+    margin:0 auto 6px;
+}
+.chapternav-label{
+    font-size: 11px;
+    text-align: end;
+
+}
+.chapternav-link{
+    display: block;
+    text-decoration:none;
+}

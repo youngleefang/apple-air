@@ -1,0 +1,38 @@
+.adv-wrapper{
+    width: 100%;
+    background-color: #444444;
+}
+.adv-wrapper .adv-wrapper-text{
+    font-size: 12px;
+    line-height: 40px;
+    padding: 0 10%;
+    text-align: right;
+}
+.nav{
+    width: 100%;
+    background-color: #313131;
+}
+.nav>.nav-top{
+    padding: 0 10%;
+
+}
+.nav>.nav-top>ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+    
+}
+.nav>.nav-top>ul>li{
+height: 48px;
+}
+.nav>.nav-top>ul>li>a{
+    height: 48px;
+    line-height: 48px;
+    text-decoration: none;
+    color: #F3F3F3;
+    font-size: 14px;
+    padding: 0 10px;
+    display: block;
+}
